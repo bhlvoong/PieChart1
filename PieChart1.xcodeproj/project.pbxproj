@@ -22,6 +22,8 @@
 		C8CFACEA16165491008A36DE /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = C8CFACE916165491008A36DE /* Shader.vsh */; };
 		C8CFACED16165491008A36DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CFACEC16165491008A36DE /* ViewController.m */; };
 		C8CFACF016165491008A36DE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8CFACEE16165491008A36DE /* ViewController.xib */; };
+		C8CFACF816165A3C008A36DE /* PieScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CFACF716165A3C008A36DE /* PieScene.m */; };
+		C8CFACFB16165FCF008A36DE /* PieSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CFACFA16165FCF008A36DE /* PieSlice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,10 @@
 		C8CFACEB16165491008A36DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C8CFACEC16165491008A36DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8CFACEF16165491008A36DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C8CFACF616165A3C008A36DE /* PieScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieScene.h; sourceTree = "<group>"; };
+		C8CFACF716165A3C008A36DE /* PieScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieScene.m; sourceTree = "<group>"; };
+		C8CFACF916165FCF008A36DE /* PieSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieSlice.h; sourceTree = "<group>"; };
+		C8CFACFA16165FCF008A36DE /* PieSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieSlice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,16 @@
 			children = (
 				C8CFACDE16165491008A36DE /* AppDelegate.h */,
 				C8CFACDF16165491008A36DE /* AppDelegate.m */,
+				C8CFACF616165A3C008A36DE /* PieScene.h */,
+				C8CFACF716165A3C008A36DE /* PieScene.m */,
+				C8CFACF916165FCF008A36DE /* PieSlice.h */,
+				C8CFACFA16165FCF008A36DE /* PieSlice.m */,
 				C8CFACE716165491008A36DE /* Shader.fsh */,
 				C8CFACE916165491008A36DE /* Shader.vsh */,
+				C8CFACD616165491008A36DE /* Supporting Files */,
 				C8CFACEB16165491008A36DE /* ViewController.h */,
 				C8CFACEC16165491008A36DE /* ViewController.m */,
 				C8CFACEE16165491008A36DE /* ViewController.xib */,
-				C8CFACD616165491008A36DE /* Supporting Files */,
 			);
 			path = PieChart1;
 			sourceTree = "<group>";
@@ -192,6 +202,8 @@
 				C8CFACDC16165491008A36DE /* main.m in Sources */,
 				C8CFACE016165491008A36DE /* AppDelegate.m in Sources */,
 				C8CFACED16165491008A36DE /* ViewController.m in Sources */,
+				C8CFACF816165A3C008A36DE /* PieScene.m in Sources */,
+				C8CFACFB16165FCF008A36DE /* PieSlice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
